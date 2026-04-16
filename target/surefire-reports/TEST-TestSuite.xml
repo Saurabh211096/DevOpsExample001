@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="17.948" tests="4" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="20.477" tests="4" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\srbhi\AppData\Local\Temp\surefire8866854241664208081\surefirebooter-20260409164411916_3.jar C:\Users\srbhi\AppData\Local\Temp\surefire8866854241664208081 2026-04-09T16-44-11_699-jvmRun1 surefire-20260409164411916_1tmp surefire_0-20260409164411916_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\srbhi\AppData\Local\Temp\surefire16993653119172945389\surefirebooter-20260416093437474_3.jar C:\Users\srbhi\AppData\Local\Temp\surefire16993653119172945389 2026-04-16T09-34-37_243-jvmRun1 surefire-20260416093437474_1tmp surefire_0-20260416093437474_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Saurabh_Selenium Sessions\DevOps123\target\test-classes;D:\Saurabh_Selenium Sessions\DevOps123\target\classes;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\srbhi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\srbhi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srbhi\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\srbhi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\srbhi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\srbhi\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\srbhi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\srbhi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\srbhi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\srbhi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\srbhi\AppData\Local\Temp\surefire8866854241664208081\surefirebooter-20260409164411916_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\srbhi\AppData\Local\Temp\surefire16993653119172945389\surefirebooter-20260416093437474_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -50,36 +50,36 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\ffmpeg\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.12\bin;C:\Users\srbhi\AppData\Local\Android\Sdk\platform-tools;C:\Users\srbhi\AppData\Local\Android\Sdk\tools;C:\Users\srbhi\AppData\Local\Android\Sdk\platform-tools;C:\Users\srbhi\AppData\Local\Android\Sdk\emulator;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\srbhi\anaconda3;C:\Users\srbhi\anaconda3\Library\mingw-w64\bin;C:\Users\srbhi\anaconda3\Library\usr\bin;C:\Users\srbhi\anaconda3\Library\bin;C:\Users\srbhi\anaconda3\Scripts;C:\Users\srbhi\AppData\Local\Microsoft\WindowsApps;C:\Users\srbhi\AppData\Roaming\npm;C:\Users\srbhi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\srbhi\AppData\Local\PowerToys\DSCModules\;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\ffmpeg\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.12\bin;C:\Users\srbhi\AppData\Local\Android\Sdk\platform-tools;C:\Users\srbhi\AppData\Local\Android\Sdk\tools;C:\Users\srbhi\AppData\Local\Android\Sdk\platform-tools;C:\Users\srbhi\AppData\Local\Android\Sdk\emulator;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\srbhi\AppData\Local\Android\Sdk\platform-tools;C:\Users\srbhi\AppData\Local\Android\Sdk\tools;C:\Users\srbhi\AppData\Local\Android\Sdk\emulator;C:\Users\srbhi\anaconda3;C:\Users\srbhi\anaconda3\Library\mingw-w64\bin;C:\Users\srbhi\anaconda3\Library\usr\bin;C:\Users\srbhi\anaconda3\Library\bin;C:\Users\srbhi\anaconda3\Scripts;C:\Users\srbhi\AppData\Local\Microsoft\WindowsApps;C:\Users\srbhi\AppData\Roaming\npm;C:\Users\srbhi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\srbhi\AppData\Local\PowerToys\DSCModules\;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyUrl" classname="com.crm.testcases.HomePageTestCase" time="0.027">
+  <testcase name="verifyUrl" classname="com.crm.testcases.HomePageTestCase" time="0.021">
     <system-out><![CDATA[Test pass: Url matched!
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Apr 09, 2026 4:44:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+Apr 16, 2026 9:34:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTitle" classname="com.crm.testcases.HomePageTestCase" time="0.01">
+  <testcase name="verifyTitle" classname="com.crm.testcases.HomePageTestCase" time="0.009">
     <system-out><![CDATA[Test pass: Title matched!
 ]]></system-out>
   </testcase>
-  <testcase name="validateSignInLink" classname="com.crm.testcases.HomePageTestCase" time="2.028">
+  <testcase name="validateSignInLink" classname="com.crm.testcases.HomePageTestCase" time="1.041">
     <system-out><![CDATA[Test pass: new url matched!(Login page opened)
 ]]></system-out>
   </testcase>
-  <testcase name="validateLogin" classname="com.crm.testcases.LoginPageTestCase" time="1.783">
+  <testcase name="validateLogin" classname="com.crm.testcases.LoginPageTestCase" time="1.216">
     <system-out><![CDATA[Test Pass: Login Completed
 ]]></system-out>
-    <system-err><![CDATA[Apr 09, 2026 4:44:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+    <system-err><![CDATA[Apr 16, 2026 9:34:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
 ]]></system-err>
   </testcase>
 </testsuite>
