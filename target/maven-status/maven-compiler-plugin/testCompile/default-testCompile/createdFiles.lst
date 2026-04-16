@@ -1,5 +1,0 @@
-com\crm\pages\LoginPage.class
-com\crm\pages\HomePage.class
-com\crm\testcases\HomePageTestCase.class
-com\crm\testcases\BaseClass.class
-com\crm\testcases\LoginPageTestCase.class
