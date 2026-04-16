@@ -3,6 +3,8 @@ package com.crm.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.crm.utility.Utility;
+
 public class HomePage {
 	// Step 1: Encapsulation = private data + public method
 	private WebDriver driver;
@@ -23,7 +25,9 @@ public class HomePage {
 		return driver.getTitle();
 	}
 	public String getStatusOfLink() { // this will click on link and return the url of that new page
+		Utility.getScreenshot(driver);
 		driver.findElement(linkk).click();
+		Utility.getScreenshot(driver);
 		return driver.getCurrentUrl();
 	}
 }
